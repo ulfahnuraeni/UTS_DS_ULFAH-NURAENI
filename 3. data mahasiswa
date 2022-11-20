@@ -1,0 +1,43 @@
+import java.util.Scanner;
+   
+class Main {
+  public static void main(String args[]){
+            
+    Scanner input = new Scanner(System.in);
+       
+    System.out.println("##  UTS Biodata Mahasiswa ##");
+    System.out.println("----------------------------------------------");
+    System.out.println();
+     
+    String nama, kelas, program_studi, semester, kota_asal, alamat;
+  
+    System.out.print("Nama mahasiswa: ");
+    nama = input.nextLine();
+     
+    System.out.print("Kelas: ");
+    kelas = input.nextLine();
+     
+    System.out.print("Program Studi: ");
+    program_studi = input.nextLine();
+     
+    System.out.print("Semester: ");
+    semester = input.nextLine();
+     
+    System.out.print("Kota Asal: ");
+    kota_asal = input.nextLine();
+     
+    System.out.print("Alamat: ");
+    alamat = input.nextLine();
+     
+    System.out.println();
+     
+    System.out.println("# Data Mahasiswa #");
+    System.out.println("==================");
+    System.out.println("Nama: "      + nama);
+    System.out.println("Kelas: "       + kelas);
+    System.out.println("Program Studi: "  + program_studi);
+    System.out.println("Semester: "   + semester);
+    System.out.println("Kota Asal: " + kota_asal);
+    System.out.println("Alamat: "    + alamat);
+  }
+}
